@@ -29,7 +29,7 @@
 	echo "Количество товаров ".sizeof($arr).'<br />';
 	echo "Сумма товаров ".array_sum($arr).'<br />';
 	
-	
+	echo('<br />');
 	asort($arr);
 	echo ('Сортировка<br />');	
 	foreach($arr as $key=>$value)
@@ -39,6 +39,5 @@
 	}
 	echo('<br />');
 	
-
-
+ 
 ?>
